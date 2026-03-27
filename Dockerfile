@@ -9,4 +9,4 @@ RUN apt-get update && \
 
 ENV LETTA_API_KEY=""
 
-CMD ["letta", "server"]
+CMD ["letta", "server", "--debug"]
