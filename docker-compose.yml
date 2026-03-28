@@ -1,5 +1,6 @@
 services:
   letta-server:
     build: .
+    hostname: cloud
     restart: always
     env_file: .env
